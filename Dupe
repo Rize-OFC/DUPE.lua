@@ -46,7 +46,7 @@ local args = {
             ["Legendary"] = true
         },
         ["AutoSellPassives"] = {},
-        ["SoundsEnabled"] = true,
+        ["SoundsEnabled"] = false,
         ["AutoClicker"] = true,
         ["AutoSprint"] = false,
         ["InstantPassive"] = false,

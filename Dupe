@@ -1,7 +1,7 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local X = Material.Load({
-	Title = "AFS - Rize",
+	Title = "AFS - DUPE",
 	Style = 3,
 	SizeX = 200,
 	SizeY = 120,
@@ -23,7 +23,7 @@ local A = Y.Button({
                         [1] = {
                             [string.rep("9", 4200000)] = require(game.ReplicatedStorage.ModuleScripts.LocalDairebStore).GetStoreProxy("GameData"):GetData("Pets")[1].UID
                         },
-                        [2] = "AFS_Is_Dogshit",
+                        [2] = "2",
                         [3] = 3
                     }
 

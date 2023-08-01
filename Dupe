@@ -47,16 +47,6 @@ TextField:SetText("Undone")
 	end
 })
 
-local D = Y.Dropdown({
-	Text = "Type",
-	Callback = function(Value)
-		getgenv().Type = Value
-	end,
-	Options = {
-		"Undo Dataloss"
-	}
-})
-
 getgenv().TextField = Y.TextField({
   Text = "Status",
   Type = "Default"

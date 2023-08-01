@@ -4,7 +4,7 @@ local X = Material.Load({
 	Title = "AFS - Rize",
 	Style = 3,
 	SizeX = 200,
-	SizeY = 100,
+	SizeY = 120,
 	Theme = "Dark",
 	ColorOverrides = {
 		MainFrame = Color3.fromRGB(35,35,35)
@@ -16,7 +16,7 @@ local Y = X.New({
 })
 
 local A = Y.Button({
-    Text = "You have not selected any Dataloss Type",
+    Text = "Start Dataloss",
     Callback = function()
         if Type == "Start Dataloss" then
                     local args = {

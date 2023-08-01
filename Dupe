@@ -16,7 +16,7 @@ local Y = X.New({
 })
 
 local A = Y.Button({
-	Text = "Selected no Type",
+	Text = "Start Dataloss",
 	Callback = function()
 		if Type == "Start Dataloss" then
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Pets.Main.Scroll:GetDescendants()) do
@@ -53,7 +53,6 @@ local D = Y.Dropdown({
 		getgenv().Type = Value
 	end,
 	Options = {
-		"Start Dataloss",
 		"Undo Dataloss"
 	}
 })
